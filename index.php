@@ -1,7 +1,7 @@
 <?php
 $font          = "Lucida\ Grande,Verdana,Lucida,Helvetica,Arial,sans-serif";
 $fontsize      = "1.75";
-$quotesource   = "phrases";
+$quotesource   = "quotes";
 
 echo "<font face=\"$font\" size=\"$fontsize\">";
 $quotes        = file("$quotesource");
